@@ -1,0 +1,84 @@
+export const mathLevel1 = {
+  levelName: "Bilangan Dasar",
+  difficulty: "Mudah",
+  description: "Mari belajar operasi bilangan sederhana!",
+  backgroundImage: "https://i.imgur.com/2Mjbvl7.jpg", // Placeholder gambar background matematika
+  enemyType: "number",
+  questions: [
+    {
+      id: 1,
+      question: "Berapakah hasil dari 5 + 3?",
+      options: ["7", "8", "9", "10"],
+      correctAnswer: "8",
+      explanation: "5 + 3 = 8"
+    },
+    {
+      id: 2,
+      question: "Berapakah hasil dari 10 - 4?",
+      options: ["4", "5", "6", "7"],
+      correctAnswer: "6",
+      explanation: "10 - 4 = 6"
+    },
+    {
+      id: 3,
+      question: "Manakah bilangan terbesar?",
+      options: ["25", "52", "15", "51"],
+      correctAnswer: "52",
+      explanation: "52 adalah bilangan terbesar di antara pilihan."
+    },
+    {
+      id: 4,
+      question: "Berapakah 4 + 7?",
+      options: ["10", "11", "12", "13"],
+      correctAnswer: "11",
+      explanation: "4 + 7 = 11"
+    },
+    {
+      id: 5,
+      question: "Hasil dari 20 - 8 adalah?",
+      options: ["10", "11", "12", "13"],
+      correctAnswer: "12",
+      explanation: "20 - 8 = 12"
+    },
+    {
+      id: 6,
+      question: "Jika ada 3 kelompok dengan 4 anak di setiap kelompok, berapa jumlah anak seluruhnya?",
+      options: ["7", "10", "12", "15"],
+      correctAnswer: "12",
+      explanation: "3 kelompok × 4 anak = 12 anak"
+    },
+    {
+      id: 7,
+      question: "Bilangan ganjil di bawah ini adalah?",
+      options: ["2", "4", "6", "9"],
+      correctAnswer: "9",
+      explanation: "9 adalah bilangan ganjil karena tidak habis dibagi 2."
+    },
+    {
+      id: 8,
+      question: "Manakah bilangan yang habis dibagi 5?",
+      options: ["12", "18", "20", "32"],
+      correctAnswer: "20",
+      explanation: "20 habis dibagi 5 menghasilkan 4."
+    },
+    {
+      id: 9,
+      question: "Berapakah 16 - 9?",
+      options: ["5", "6", "7", "8"],
+      correctAnswer: "7",
+      explanation: "16 - 9 = 7"
+    },
+    {
+      id: 10,
+      question: "Jika Ani memiliki 8 permen dan diberi 5 permen lagi oleh ibunya, berapa permen Ani sekarang?",
+      options: ["11", "12", "13", "14"],
+      correctAnswer: "13",
+      explanation: "8 permen + 5 permen = 13 permen"
+    }
+  ],
+  rewards: {
+    stars: 3,
+    coins: 50,
+    badge: "Ahli Matematika Pemula"
+  }
+};

@@ -1,0 +1,84 @@
+export const scienceLevel1 = {
+  levelName: "Pengenalan Sains Dasar",
+  difficulty: "Mudah",
+  description: "Mari belajar tentang makhluk hidup di sekitar kita!",
+  backgroundImage: "https://i.imgur.com/1QA7yNu.jpg", // Placeholder gambar background alam
+  enemyType: "microbe",
+  questions: [
+    {
+      id: 1,
+      question: "Manakah yang termasuk makhluk hidup?",
+      options: ["Batu", "Pohon", "Air", "Matahari"],
+      correctAnswer: "Pohon",
+      explanation: "Pohon adalah makhluk hidup karena dapat tumbuh dan berkembang."
+    },
+    {
+      id: 2,
+      question: "Apa yang diperlukan tumbuhan untuk membuat makanannya sendiri?",
+      options: ["Air dan matahari", "Tanah dan batu", "Angin dan awan", "Api dan es"],
+      correctAnswer: "Air dan matahari",
+      explanation: "Tumbuhan memerlukan air dan matahari (cahaya) untuk proses fotosintesis."
+    },
+    {
+      id: 3,
+      question: "Hewan yang bertelur disebut?",
+      options: ["Ovipar", "Vivipar", "Ovovivipar", "Mamalia"],
+      correctAnswer: "Ovipar",
+      explanation: "Ovipar adalah hewan yang berkembang biak dengan cara bertelur."
+    },
+    {
+      id: 4,
+      question: "Kupu-kupu mengalami perubahan bentuk yang disebut?",
+      options: ["Metamorfosis", "Fotosintesis", "Reproduksi", "Respirasi"],
+      correctAnswer: "Metamorfosis",
+      explanation: "Metamorfosis adalah perubahan bentuk pada beberapa hewan seperti kupu-kupu."
+    },
+    {
+      id: 5,
+      question: "Bagian tumbuhan yang berfungsi untuk menyerap air dan mineral adalah?",
+      options: ["Daun", "Batang", "Bunga", "Akar"],
+      correctAnswer: "Akar",
+      explanation: "Akar berfungsi menyerap air dan mineral dari dalam tanah."
+    },
+    {
+      id: 6,
+      question: "Hewan yang memiliki tulang belakang disebut?",
+      options: ["Vertebrata", "Invertebrata", "Amfibi", "Mamalia"],
+      correctAnswer: "Vertebrata",
+      explanation: "Vertebrata adalah kelompok hewan yang memiliki tulang belakang."
+    },
+    {
+      id: 7,
+      question: "Proses pernapasan pada manusia menghasilkan?",
+      options: ["Oksigen", "Karbon dioksida", "Air", "Nitrogen"],
+      correctAnswer: "Karbon dioksida",
+      explanation: "Saat bernapas, manusia menghirup oksigen dan mengeluarkan karbon dioksida."
+    },
+    {
+      id: 8,
+      question: "Salah satu ciri makhluk hidup adalah?",
+      options: ["Bergerak sendiri", "Berwarna cerah", "Berbentuk bulat", "Bersuhu tinggi"],
+      correctAnswer: "Bergerak sendiri",
+      explanation: "Bergerak sendiri adalah salah satu ciri makhluk hidup."
+    },
+    {
+      id: 9,
+      question: "Tanaman yang menyimpan cadangan makanan di umbi adalah?",
+      options: ["Jagung", "Padi", "Singkong", "Kangkung"],
+      correctAnswer: "Singkong",
+      explanation: "Singkong menyimpan cadangan makanan di bagian umbi."
+    },
+    {
+      id: 10,
+      question: "Daun berwarna hijau karena mengandung?",
+      options: ["Klorofil", "Hemoglobin", "Melanin", "Karotin"],
+      correctAnswer: "Klorofil",
+      explanation: "Klorofil adalah pigmen hijau pada daun yang berperan dalam fotosintesis."
+    }
+  ],
+  rewards: {
+    stars: 3,
+    coins: 50,
+    badge: "Ilmuwan Pemula"
+  }
+};

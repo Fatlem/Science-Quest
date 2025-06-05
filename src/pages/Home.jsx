@@ -40,7 +40,7 @@ const Home = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
             <div className="flex justify-center">
               <img 
-                src="https://i.imgur.com/2TwPbgC.jpg" 
+                src="/SQlogosquare.png" 
                 alt="Game Preview" 
                 className="rounded-lg shadow-lg max-w-full"
               />

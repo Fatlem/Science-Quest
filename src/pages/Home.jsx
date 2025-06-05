@@ -75,7 +75,7 @@ const Home = () => {
       {/* Features */}
       <section className="py-10 md:py-16">
         <h2 className="font-pixel text-3xl mb-10 text-center text-primary-700">
-          Fitur Unggulan
+          Fitur
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="bg-white p-6 rounded-lg shadow-md">

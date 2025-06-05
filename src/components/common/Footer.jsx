@@ -27,8 +27,8 @@ const Footer = () => {
           <div>
             <h4 className="font-bold mb-2">Hubungi Kami</h4>
             <p className="text-gray-400 text-sm">
-              Email: info@sciencequest.com<br/>
-              Telp: +62 123 4567 890
+              Email: sciencequest0@gmail.com.com<br/>
+              Telp: +62 851 5650 4046
             </p>
           </div>
         </div>
